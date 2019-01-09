@@ -1,0 +1,172 @@
+div.navbar {
+opacity:0.0;
+display:none;
+}
+]]></b:skin>
+</head>
+<body>
+	<style>
+		html,
+		body {
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			width: 100%;
+		}
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			margin: 0;
+			font-family: &quot;Montserrat&quot;, sans-serif;
+		}
+
+		.responsive-image {
+			position: relative;
+			height: 100%;
+			width: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+
+		.name {
+			text-transform: uppercase;
+			font-size: 2.2em;
+			letter-spacing: 0.02em;
+		}
+
+		.thin {
+			font-weight: 200;
+		}
+
+		.title {
+			text-transform: uppercase;
+			margin: 0;
+			font-family: &quot;Montserrat&quot;, sans-serif;
+		}
+
+		.links a {
+			font-size: 0.8em;
+		}
+
+		.links a {
+			text-transform: uppercase;
+			color: #F9F1E9;
+			margin: 0;
+			font-family: &quot;Montserrat&quot;, sans-serif;
+		}
+
+		.box {
+			position: absolute;
+			padding: 0;
+			color: #F9F1E9;
+			text-align: center;
+			top: 50%;
+			left: 50%;
+			-webkit-transform: translate3d(-50%, -50%, 0);
+			transform: translate3d(-50%, -50%, 0);
+		}
+
+		#card {
+			width: 100%;
+			min-width: 350px;
+			max-width: 28.125em;
+			background: rgba(0, 0, 0, 0.75);
+			padding: 2.5em;
+			text-align: center;
+			box-sizing: border-box;
+			border-radius: .75em;
+			box-shadow: 0 0 0.975em rgba(0, 0, 0, 0.80);
+			z-index: 99;
+		}
+
+		.quote {
+			font-family: &quot;Lucida Sans Typewriter&quot;, &quot;Lucida Console&quot;, monaco, &quot;Bitstream Vera Sans Mono&quot;, monospace;
+			font-size: 14px;
+			font-style: normal;
+			font-variant: normal;
+			font-weight: 400;
+			line-height: 20px;
+		}
+
+		img {
+			width: 10.5em;
+			height: auto;
+			border-radius: 50%;
+			box-shadow: 0 0 0 0.225em #ecf0f1;
+			margin-bottom: 10px;
+		}
+
+		.list span.devicons {
+			font-size: 2.5em;
+		}
+
+		@media only screen and (max-width: 768px) {
+			.responsive-image {
+				height: 110%;
+			}
+			.box {
+				min-height: 450px;
+				margin-top: 15px;
+			}
+			#card {
+				height: 550px;
+			}
+			.title {
+				font-size: 1.5em;
+			}
+			.list span.devicons {
+				font-size: 1.4em;
+			}
+			.links {
+				font-size: 12px;
+			}
+		}
+
+		/* Header */
+
+		.large-header {
+			position: relative;
+			width: 100%;
+			background: #333;
+			overflow: hidden;
+			background-size: cover;
+			background-position: center center;
+			z-index: 1;
+		}
+
+		#large-header {
+			background-image: url(&#39;https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg&#39;);
+		}
+
+		.main-title {
+			position: absolute;
+			margin: 0;
+			padding: 0;
+			color: #f9f1e9;
+			text-align: center;
+			top: 50%;
+			left: 50%;
+			-webkit-transform: translate3d(-50%, -50%, 0);
+			transform: translate3d(-50%, -50%, 0);
+		}
+
+		.demo-1 .main-title {
+			text-transform: uppercase;
+			font-size: 4.2em;
+			letter-spacing: 0.1em;
+		}
+
+		.main-title .thin {
+			font-weight: 200;
+		}
+
+		@media only screen and (max-width: 768px) {
+			.demo-1 .main-title {
+				font-size: 3em;
+			}
+		}
